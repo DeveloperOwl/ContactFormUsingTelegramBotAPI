@@ -16,7 +16,7 @@ if(isset($_GET["fullname"]) && isset($_GET["email"]) && isset($_GET["message"]))
 	
 	$response = file_get_contents($data);
 	
-	
+	header("Location: http://developerowl.com/contact-us/");
 }
 else{
 	echo "failed!";
