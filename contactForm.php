@@ -12,4 +12,7 @@ if(isset($_GET["fullname"]) && isset($_GET["email"]) && isset($_GET["message"]))
 	
 	echo $response;
 }
+else{
+	echo "failed!";
+}
 ?>
